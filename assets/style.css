@@ -66,3 +66,7 @@ footer {
     border-radius: 50%; /* Make it round */
     object-fit: cover; /* Ensure the image covers the container */
 }
+
+.work{
+    padding-bottom: 5rem;
+}
