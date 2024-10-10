@@ -1,175 +1,68 @@
-/* :root {
-    --text-color: #1a1c20;
-    --link-color: #4a76ee;
-    --background-color: #eeeff1;
-
-
-} */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-
-}
-
 body {
-    color: white;
-    background-color: #1a1c20;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 2rem 2rem;
+    background-color: lightgray;
 
 }
 
 header {
-    color: black;
-    font-size:xx-large;
-    background-color: gray;
-    border: 2px solid blue;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 2rem;
-
-
-
-
-}
-
-nav {
-    display: flex;
-    flex:auto;
-    color: navy;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: gray;
-    /* width: 75%; */
-}
-nav li{
-list-style: none;
-
-
-}
-
-nav li a{
-text-decoration: none;
-color: inherit;
-
-}
-
-h1 {
-    height: 10vh;
-    background-color: gray;
-}
-
-.bio {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style for the heading */
-.bio h2 {
-    color: #333;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-/* Style for the paragraph */
-.bio p {
-    color: #666;
-    font-size: 28px;
-    line-height: 2;
-}
-
-
-article {
-    background-color: gray;
-    height: 30vh;
-    font-size: 40px;
-}
-
-a {
-    color: #4a76ee;
-
-}
-
-/* #work {
-    background-color: gray;
-    height: 30vh;
-    font-size: 40px;
-}
- 
-
- #work img{
-    flex-grow: 1; 
-    max-width: 100%;
- } */
- .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #ccc; /* Just for visualization */
-    padding: 10px; /* Just for visualization */
-  }
-
-  .big-image{
-max-width: 75rem;
-min-width: 30rem;
-
-
-  }
-
- img{
-width: 100%;
-
-
- }
-
-
-
-.small-images{
-display: flex;
-flex-wrap: wrap;
-gap: 1rem;
-justify-content: center;
-
-
-
 }
 
-.small{
-max-width: 30rem;
-min-width: 15rem;
-background-color: #4a76ee;
-padding: 1rem;
-border-radius: 8px;
-
-
-
+nav ul {
+    padding: 0;
 }
 
-  .image-wrapper{
-  max-width: 10rem;
-  min-width: 5rem;
-    border-radius: 50%;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-  }
-  
-  #profile-pic{
+.big-image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    flex-wrap: wrap;
+}
+
+.big-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.small-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.small {
+    margin: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
     width: 100%;
-    border-radius: 50%;
+}
 
+.bio{
+    font-size: large;
+}
 
-  }
+.profile-picture {
+    display: flex; /* Use flex to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
 
-  .text-with-background {
-    background-color: gray; /* Change to your desired color value */
-    padding: 5px 10px; /* Optional: Add padding to create space around the text */
-  }
+.profile-picture img {
+    width: 275px; /* Set a specific width */
+    height: 275px; /* Set a specific height */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover; /* Ensure the image covers the container */
+}

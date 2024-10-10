@@ -9,37 +9,33 @@
 </head>
 
 <body>
-    <header>
-
-        <h1 class="text-with-background" > 
-            Portfolio
-        </h1>
-        <div class="image-wrapper">
-            <img id="profile-pic" src="assets/images/matt keeney.jpg" alt="Matt with sunglasses on.">
-        </div>
-        
+    <header style="background-color: teal; padding: 20px;">
+        <h1 class="text-with-background" style="color: white;">Portfolio</h1>
         <nav>
-            <li>
-                <a href="#about">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
+            <ul style="list-style: none; display: flex; gap: 20px;">
+                <li><a href="#about" style="color: white; text-decoration: none;">About Me</a></li>
+                <li><a href="#resume" style="color: white; text-decoration: none;">Resume</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
         <article id="about" class="bio">
             <h2>About</h2>
+            <section class="profile-picture" >
+                <img  src="assets/images/matt keeney.jpg" alt="profile pic">
+            </section>
             <p>
-                ipsum dolor sit amet consectetur adipisicing elit. Vel, eum quas delectus earum eos cupiditate a,
-                cum assumenda doloremque ea excepturi deleniti velit esse similique porro nisi, odit officiis
-                voluptatem!
+                Hello! I’m Matthew Keeney, a seasoned sales professional with over 7 years of experience and a current Software Development Bootcamp student at Ohio State University. My journey began in Huntington, West Virginia, and has taken me through South Point, Ohio, and Morehead, Kentucky, where I’ve been residing since February 2023.
+
+                Currently, I work with National Garden Service, managing plant care for various corporations. This role allows me to blend my dedication to detail with my love for nurturing growth and beauty. Simultaneously, I’m diving deep into the world of software development, having discovered a passion for programming midway through 2023. I am committed to continuous learning and skill enhancement in this dynamic field.
+                
+                Beyond my professional life, I’m an avid hunter and fisherman, and I take pride in my hidden talent as a cornhole guru. My love for family and sports, particularly as a lifelong Cincinnati Bengals fan, shapes my personal life and drives my enthusiasm.
+                
+                I firmly believe in treating others the way I would like to be treated—a principle that guides my interactions both personally and professionally. As I navigate through my bootcamp and beyond, I am excited to integrate my diverse experiences into innovative solutions and contribute meaningfully to the tech industry.
+                
+                Feel free to connect with me to discuss opportunities, share insights, or just chat about sports and the great outdoors!
             </p>
         </article>
 
@@ -47,37 +43,54 @@
             <h2>Work</h2>
             <div class="container">
                 <section class="big-image">
-                    <img src="assets/images/Screenshot 2024-05-31 091816.png" alt="picture of a kaplan taskboard">
+                    <img src="assets/images/Screenshot 2024-05-31 091816.png" alt="Picture of a Kaplan taskboard">
                 </section>
-<section class="small-images">
-    <div class="small">
-        <img src="assets/images/Screenshot 2024-05-31 092023.png" alt="prework study guide">
-    </div>
-    <div class="small">
-        <img src="assets/images/Screenshot 2024-05-31 092023.png" alt="prework study guide">
-    </div>
-    <div class="small">
-        <img src="assets/images/Screenshot 2024-05-31 092023.png" alt="prework study guide">
-    </div>
-    <div class="small">
-        <img src="assets/images/Screenshot 2024-05-31 092023.png" alt="prework study guide">
-    </div>
-</section>
-               
-               
+                <section class="big-image">
+                        <img src="assets/images/Screenshot 2024-05-31 092023.png" alt="Prework Study Guide">
+                </section>
+                    <section class="big-image">
+                        <img src="" alt="Picture of a Kaplan taskboard">
+                    </section>
+                    <section class="big-image">
+                        <img src="" alt="Picture of a Kaplan taskboard">
+                    </section>
+                    <!-- Repeat as necessary for more images -->
+                </section>
             </div>
-
-
         </section>
+
         <section id="contact">
-            Contact
-
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, feel free to reach out!</p>
         </section>
-        <section id="resume">
-            Resume
 
+        <section id="resume">
+            <h2>Resume</h2>
+            <section>
+            <p>Matthew Keeney
+                <h3>Professional Salesman</h3>
+                <h4>PROFILE</h4>
+                <p>Highly motivated sales professional with an extensive background in sales. Developed a successful track record of creating and executing sales plans to meet and exceed company revenue goals. Adept at building relationships with customers, identifying their needs, and delivering solutions. Will go above and beyond to see results.</p>
+                <h4>Education</h4>
+                Ohio State University - Bootcamp - Software Development
+                Marshall University - [2017] – [2018] - SFT 235, SFT 372, UNI 101, ENG 110
+                <h4>Work Experience</h4> 
+                <h5>Allegiant Air – Customer Resource Officer - [02/2015] – [09/2018]</h5>
+                <p>As a CRO I handled data entry regarding flight info and documented times on computer. Check passengers pass for flight ensure to no flight risk. Deescalated tense situations, and handled all ticket sales, promotions, and reschedules. SIDA certified and drove all equipment. Trained 10+ employees on Allegiant systems and equipment. </p>
+                <h5>Bimbo Bakeries –   Sales Associate  - [10/2018] – [08/2023]</h5>
+                <p>In the mornings, products would be loaded in truck for the day and a list of accounts to distribute to. Delivery to all accounts specific to order, stock and merchandise grocery stories while hot drops are done at restaurants and hospitals. During deliveries, payments—whether in cash or electronic form—are collected. Subsequently, data is entered upon return to the depot.</p>
+                <h4>Hobbies</h4>
+                <p>Beyond work, my passions include hunting, fishing, and dominating the cornhole board. My commitment to personal growth and uplifting those around me makes me an invaluable team player.</p>
+                </p>
+            </section>
         </section>
     </main>
+
+    <footer style="background-color: teal; color: white; padding: 20px; text-align: center;">
+        <p>Connect with me:</p>
+        <a href="https://github.com/mkeeney42" style="color: white; text-decoration: none; margin-right: 15px;">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" style="color: white; text-decoration: none;">LinkedIn</a>
+    </footer>
 </body>
 
 </html>
